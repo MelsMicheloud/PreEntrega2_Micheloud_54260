@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="favicon web">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,600&display=swap" rel="stylesheet">
+    <!--link bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!--link mi css-->
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>PetLover</title>
+</head>
+
+<body class="body_cuidados">
+    <header id="cabecera">
+        <section>
+            <nav class="navbar navbar-dark fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="../index.html">
+                        <img src="../img/logo_petlover_horizontal_1.png" alt="logo-petlover" class="logo-header">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                        <div class="offcanvas-header">
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <img src="../img/logo_petlover.png" alt="logo_menudesplegable">
+                            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">¡Hola!</h5>
+                            <h6 class="offcanvas-title" id="offcanvasDarkNavbarLabel">petlover@company.com</h6>
+                    </div>
+                    
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="razas.html">Razas</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="cuidados.html">Cuidados</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="alimentacion.html">Alimentación</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="adoptame.html">Adoptame</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section>
+            <div id="grilla_banner">
+                <h1 class="titulo">Cuidados Caninos</h1>
+                <p class="text_portada"> Aprende a cuidar correctamente a tu perro, con nuestras guías sobre mantenimiento canino y cuidados específicos. Cómo bañarlos correctamente, cuando vacunarlos, cepillado y limpieza de dientes y oídos, etc. Todo lo que tu perro necesita</p>
+                <img class="img_portada" src="../img/perro_cuidados_02.png" alt="slider_razas_de_perros">
+            </div>
+        </section>
+    </main>
+
+    <section>
+        <div>
+            <img class="banner_cuidados" src="../img/flyer_cuidados.png" alt="banner_buscar_raza">
+        </div>
+    </section>
+
+
+    <div class="card mb-3">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="../img/perro_mojado.png" class="img-fluid rounded-start" alt="...">
+            </div>
+        </div> 
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Olor a perro mojado, remedios para eliminarlo</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Ultima actualizacion hace 3 min.</small></p>
+            </div>
+        </div>
+
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="../img/perro_correa.png" class="img-fluid rounded-start" alt="...">
+            </div>
+        </div> 
+        <div class="col-md-8">
+            <div class="card-body">
+                <h5 class="card-title">Consecuencias de no sacar a pasear al perro</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-body-secondary">Ultima actualizacion hace 5 min.</small></p>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Menu
+                    </button>
+                </h2>
+    
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <nav class="nav_footer">
+                            <ul>
+                                <li>
+                                    <a href="../pages/razas.html">Razas</a>
+                                </li>
+                                <li>
+                                    <a href="../pages/cuidados.html">cuidados</a>
+                                </li>
+                                <li>
+                                    <a href="../pages/alimentacion.html">Alimentación</a>
+                                </li>
+                                <li>
+                                    <a href="../pages/adoptame.html">Adoptame</a>
+                                </li>
+                            </ul>
+                        </nav>     
+                    </div>
+                </div>
+            </div>
+    
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Adopción
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <nav class="nav_footer">
+                            <ul>
+                                <li>Titulo 1</li>
+                                <li>Titulo 2</li>
+                                <li>Titulo 3</li>
+                                <li>Titulo 4</li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+    
+                <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Seguinos
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <img src="../img/icono_facebook.png" alt="facebook">
+                        <img src="../img/icono_instagram.png" alt="instagram">
+                        <img src="../img/icono_twitter.png" alt="Twitter">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+        
+<!--SPRIPT BOOTSTRAPP JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
